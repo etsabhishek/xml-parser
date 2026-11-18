@@ -189,3 +189,85 @@ td { padding: 14px 12px; font-size: 13px; line-height: 1.5; }
   .upload-top { flex-wrap: wrap; }
   .upload-top > .btn { margin-left: auto; }
 }
+
+
+/* Balanced typography: between the compact original and the enlarged pass */
+body { font-size: 15px; }
+.sidebar { width: 260px; padding: 25px 17px 19px; }
+.brand { padding-bottom: 34px; }
+.brand b { font-size: 16px; }
+.workspace b { font-size: 12px; }
+.navitem { min-height: 42px; padding: 10px 12px; font-size: 13px; }
+.topbar { height: 68px; padding: 0 38px; }
+.crumb { font-size: 13px; }
+.local-pill { font-size: 11px; }
+.content { max-width: 1580px; padding: 34px 42px 48px; }
+h1 { font-size: 33px; margin-top: 11px; }
+.subtitle { font-size: 14px; }
+.btn { font-size: 13px; padding: 11px 15px; }
+.upload-card { padding: 22px 23px 15px; }
+.upload-top h2, .results-heading h2 { font-size: 18px; }
+.upload-top p { font-size: 13px; }
+.file-meta b { font-size: 13px; }
+.file-meta small { font-size: 11px; }
+.xml-input { height: 245px; padding: 15px; font-size: 13px; line-height: 1.65; }
+.editor-footer { font-size: 11px; }
+.welcome b { font-size: 14px; }
+.welcome p { font-size: 12px; }
+.disclaimer { font-size: 11px; }
+.stat { padding: 17px 19px; }
+.stat-label { font-size: 12px; }
+.stat strong { font-size: 27px; }
+.stat small { font-size: 11px; }
+.panel { padding: 20px 22px; }
+.panel-head h3 { font-size: 15px; }
+.panel-head p { font-size: 12px; }
+.text-btn { font-size: 12px; }
+.finding { padding: 13px 0; }
+.severity { width: 31px; height: 31px; }
+.finding-copy b { font-size: 13px; }
+.finding-copy p { font-size: 12px; line-height: 1.5; }
+.finding-copy small { font-size: 10px; }
+.readiness-icon { width: 54px; height: 54px; margin: 24px auto 12px; }
+.readiness h2 { font-size: 17px; }
+.readiness > p { font-size: 12px; }
+.readiness-foot { font-size: 11px; }
+.searchbox { padding: 10px 12px; }
+.searchbox input { font-size: 13px; }
+.filters select { font-size: 12px; }
+th { font-size: 10px; padding: 12px 11px; }
+td { padding: 12px 11px; font-size: 12px; }
+.tag { font-size: 10px; }
+.source-view { font-size: 12px; line-height: 1.65; }
+@media (max-width: 1100px) {
+  .sidebar { width: 228px; }
+  .content { padding: 30px 26px 42px; }
+  .topbar { padding: 0 26px; }
+}
+@media (max-width: 760px) {
+  .sidebar { width: 100%; padding: 11px 13px; }
+  .brand b { font-size: 14px; }
+  .navitem, .navitem:not(.active) { min-height: 36px; padding: 7px 8px; font-size: 10px; }
+  .topbar { height: 54px; padding: 0 15px; }
+  .content { padding: 22px 15px 34px; }
+  h1 { font-size: 28px; }
+  .subtitle { font-size: 13px; }
+  .upload-card { padding: 16px; }
+  .upload-top h2, .results-heading h2 { font-size: 17px; }
+  .upload-top p { font-size: 12px; }
+  .btn { font-size: 12px; padding: 10px 12px; }
+  .xml-input { height: 220px; font-size: 12px; }
+  .editor-footer { font-size: 10px; }
+  .stat { padding: 13px; }
+  .stat-label { font-size: 11px; }
+  .stat strong { font-size: 24px; }
+  .stat small { font-size: 10px; }
+  .panel { padding: 16px; }
+  .panel-head h3 { font-size: 14px; }
+  .panel-head p { font-size: 11px; }
+  .finding-copy b { font-size: 12px; }
+  .finding-copy p { font-size: 11px; }
+  .readiness h2 { font-size: 16px; }
+  .readiness > p { font-size: 11px; }
+  td { font-size: 11px; }
+}
